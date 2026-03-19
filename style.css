@@ -37,6 +37,12 @@ label {
     line-height: 18px;
 }
 
+select#real {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 #real,
 #moedas {
     width: 327px;
