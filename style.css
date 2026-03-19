@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #8C52FE;
+    ;
+}
+
+.logo {
+    width: 300px;
+    margin: 12px auto;
+    display: block;
+}
+
+main {
+    background: #FFFFFF;
+    width: 375px;
+    border: none;
+    border-radius: 20px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 44px 24px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#real,
+#moedas {
+    width: 327px;
+    height: 48px;
+    margin: 5px 0 24px;
+    padding: 14px 18px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+}
+
+.container-valor {
+    position: relative;
+    display: inline-block;
+}
+
+.container-valor::before {
+    content: "R$";
+    position: absolute;
+    left: 18px;
+    top: 20px;
+    color: #555555;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    pointer-events: none;
+}
+
+#valor {
+    width: 327px;
+    height: 48px;
+    margin: 5px 0 24px;
+    padding-left: 42px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    outline: none;
+    color: #555555;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 15px 121px;
+    background: #772FD3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.resultado {
+    margin-top: 36px;
+    padding: 12px 0;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+}
+
+.bandeira-real,
+.bandeira-moeda {
+    display: block;
+    margin: 0 auto;
+    width: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+
+.nome-real,
+.nome-moeda {
+    display: block;
+    margin: 4px auto 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+    text-align: center;
+}
+
+.valor-real,
+.valor-moeda {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #555555;
+    text-align: center;
+}
+
+.seta {
+    display: block;
+    margin: 15px auto;
+}

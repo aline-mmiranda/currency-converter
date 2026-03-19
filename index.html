@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Convert Money</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="./assets/logo-convert.gif" alt="Logo do conversor de dinheiro" class="logo">
+
+    <main>
+        <label for="real">Converter <b>de</b>
+            <select name="real" id="real">
+                <option value="real">R$ (BRL) - Real</option>
+            </select>
+        </label>
+
+        <label for="moedas">Converter <b>para</b>
+            <select name="moedas" id="moedas">
+                <option value="dolar">US$ (USD)- Dólar americano</option>
+                <option value="euro">€ (EUR) - Euro</option>
+                <option value="libra">£ (GBP) - Libra Esterlina</option>
+                <option value="bitcoin">₿ (BTC) - Bitcoin</option>
+            </select>
+        </label>
+
+        <label for="valor"><b>Valor</b>
+            <div class="container-valor">
+                <input type="text" placeholder="0,00" id="valor">
+            </div>
+        </label>
+
+        <button id="button" class="button">Converter</button>
+
+        <section class="resultado">
+            <img src="./assets/real.png" alt="Bandeira Real" class="bandeira-real">
+            <span class="nome-real">Real</span>
+            <span class="valor-real">R$ 0</span>
+            <img src="./assets/arrow.png" alt="Seta" class="seta">
+            <img src="./assets/dolar.png" alt="Bandeira Dólar" class="bandeira-moeda">
+            <span class="nome-moeda">Dólar Americano</span>
+            <span class="valor-moeda">US$ 0</span>
+        </section>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
