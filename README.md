@@ -132,13 +132,16 @@ Para resolver esses pontos:
 
 ## 🏗️ Estrutura do projeto
 
+```text
 📦 currency-converter
- ┣ ⚡ script.js → código fonte principal
- ┣ 🎨 style.css → estilos
- ┣ 🌐 index.html → estrutura da interface
- ┣ 📂 assets → arquivos estáticos
- ┃ ┗ 📂 images → screenshots e ícones
+ ┣ 📂 src
+ ┃ ┗ ⚡ script.js → lógica da aplicação
+ ┣ 📂 assets
+ ┃ ┣ 🎨 style.css → estilos
+ ┃ ┗ 📂 images → screenshots
+ ┣ 🌐 index.html → interface
  ┗ 📄 README.md → documentação
+ ```
 
 ---
 

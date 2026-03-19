@@ -11,22 +11,22 @@ moedas.addEventListener("change", (e) => {
     moedaSelecionada = e.target.value;
 
     if (moedaSelecionada === "dolar") {
-        bandeiraMoeda.src = "./assets/dolar.png";
+        bandeiraMoeda.src = "./assets/images/dolar.png";
         bandeiraMoeda.alt = "Bandeira Dólar";
         nomeMoeda.innerText = "Dólar Americano";
         valorMoeda.innerText = "US$ 0";
     } else if (moedaSelecionada === "euro") {
-        bandeiraMoeda.src = "./assets/euro.png";
+        bandeiraMoeda.src = "./assets/images/euro.png";
         bandeiraMoeda.alt = "Bandeira Euro";
         nomeMoeda.innerText = "Euro";
         valorMoeda.innerText = "€ 0";
     } else if (moedaSelecionada === "libra") {
-        bandeiraMoeda.src = "./assets/libra.png";
+        bandeiraMoeda.src = "./assets/images/libra.png";
         bandeiraMoeda.alt = "Bandeira Libra";
         nomeMoeda.innerText = "Libra";
         valorMoeda.innerText = "£ 0";
     } else {
-        bandeiraMoeda.src = "./assets/bitcoin.png";
+        bandeiraMoeda.src = "./assets/images/bitcoin.png";
         bandeiraMoeda.alt = "Bandeira Bitcoin";
         nomeMoeda.innerText = "Bitcoin";
         valorMoeda.innerText = "₿ 0";
