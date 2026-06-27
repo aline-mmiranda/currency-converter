@@ -12,7 +12,7 @@ O projeto foi criado com o objetivo de praticar **lógica em JavaScript, manipul
 
 ## 🖥️ Preview
 
-![Preview](./assets/printscreen.png)
+![Preview](./assets/images/printscreen.png)
 
 ---
 
